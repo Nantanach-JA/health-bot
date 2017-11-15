@@ -38,7 +38,7 @@ def bot():
 
     rsp1,rsp2 = wit_response(text)
     if (rsp1 == "age_of_person"):
-        user_detail["age"] = rsp2
+        user_detail["age"] = get_num(rsp2)
         rsp = ("แล้วน้ำหนักเท่าไรครับ ตอบในหน่วยกิโลกรัมนะครับ เช่น 48 กก ตอบแบบอื่นเฮลงงครับ")
     elif (rsp1 == "weight_of_person"):
         user_detail["weight"] = rsp2
