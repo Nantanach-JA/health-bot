@@ -6,7 +6,7 @@ import requests
 
 # ตรง YOURSECRETKEY ต้องนำมาใส่เองครับจะกล่าวถึงในขั้นตอนต่อๆ ไป
 global LINE_API_KEY
-LINE_API_KEY = 'Bearer 77/rUD66AxteA86L+M7a1f8KtwtcXXt98K9X9uPHNpVB6xftyxYXTOVJihjNFeOzQyOfPY6KO1BVUO974Jkjlm5FkO3JKRZkv9O/BLJLpFpCrdhkjGHLq6QFh0MaEBbM5ZZz3wb6eJtmQM8cCkz/EgdB04t89/1O/w1cDnyilFU='
+LINE_API_KEY = 'Bearer LYcgZ4nOeNRBAbms4iLtVg2Zr5+InPb88Vo0L7bwztA5NIZeYaUHNCGu+q/TH4wTy02oh+DQoOvIbnps5WtxC57zWtZgs37QoXI0aCoz+yynvkXOdock9qWh5TL6V85be6U/plP/ubg6zrDI7nZYKAdB04t89/1O/w1cDnyilFU='
 global user_detail
 user_detail = {}
 
