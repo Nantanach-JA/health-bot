@@ -20,3 +20,6 @@ def wit_response(message_text):
     #elif (entity1 == "type" & entity2 == "amount"): return ("กิน"+ value1 + "มา " + value2 + " จานเหรอ")
 
     return (entity,value)
+
+def get_num(x):
+    return int(''.join(ele for ele in x if ele.isdigit()))
